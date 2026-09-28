@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MSAADA — Government Services Assistant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="logo">
+        <div class="logo-icon">M</div>
+        <div>
+            <h1>MSAADA</h1>
+            <span>Kenya Government Services Assistant</span>
+        </div>
+    </div>
+
+    <div id="status" class="status">
+        <span class="status-dot"></span>
+        Checking connection...
+    </div>
+</header>
+
+<main>
+
+    <section class="hero">
+        <h2>Government services, made simple.</h2>
+        <p>
+            Ask MSAADA about Kenyan government services,
+            requirements, fees and application procedures.
+        </p>
+    </section>
+
+    <section class="chat-card">
+
+        <div id="chat" class="chat">
+            <div class="message assistant">
+                <div class="avatar">M</div>
+                <div class="bubble">
+                    Hello! I'm MSAADA. 👋<br><br>
+                    What Kenyan government service do you need help with?
+                </div>
+            </div>
+        </div>
+
+        <div class="suggestions">
+            <button onclick="useSuggestion('I want to apply for a passport in Kenya')">
+                🛂 Apply for a passport
+            </button>
+
+            <button onclick="useSuggestion('I want to register a business in Kenya')">
+                🏢 Register a business
+            </button>
+
+            <button onclick="useSuggestion('I need help with a national ID')">
+                🪪 National ID
+            </button>
+        </div>
+
+        <form id="chat-form">
+            <input
+                id="message"
+                type="text"
+                placeholder="Ask about a government service..."
+                autocomplete="off"
+                required
+            >
+
+            <button id="send-btn" type="submit">
+                Send
+            </button>
+        </form>
+
+        <div id="error" class="error"></div>
+
+    </section>
+
+</main>
+
+<footer>
+    <p>MSAADA • AI-powered access to Kenyan government services</p>
+</footer>
+
+<script src="app.js"></script>
+
+</body>
+</html>

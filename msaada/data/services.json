@@ -1,0 +1,121 @@
+{
+  "business_registration": {
+    "name": "Business Registration",
+    "agency": "Business Registration Service (BRS)",
+    "country": "Kenya",
+    "description": "Registration of a business name through the Business Registration Service.",
+
+    "requirements": [
+      "eCitizen account",
+      "Three preferred business names",
+      "Applicant particulars",
+      "Nature of the business",
+      "Passport photo",
+      "National ID"
+    ],
+
+    "steps": [
+      "Sign in to your eCitizen account.",
+      "Open Business Registration Service.",
+      "Access BRS services.",
+      "Select Business Name Registration.",
+      "Submit the proposed business names and required particulars.",
+      "Complete the application and payment process."
+    ],
+
+    "fees": null,
+
+    "official_url": "https://brs.go.ke/",
+    "ecitizen_url": "https://www.ecitizen.go.ke/",
+
+    "source": "Business Registration Service",
+    "source_name": "Business Registration Service",
+    "source_type": "official_government_website",
+
+    "source_provenance": {
+      "requirements": "official_government_source",
+      "steps": "official_government_source",
+      "fees": "official_government_source"
+    },
+
+    "verified": true,
+    "status": "active",
+    "last_verified": "2026-08-25"
+  },
+
+  "passport_application": {
+    "name": "Kenyan Passport Application",
+    "agency": "Directorate of Immigration Services",
+    "country": "Kenya",
+    "description": "Application for a Kenyan passport through the Directorate of Immigration Services.",
+
+    "requirements": [
+      "Duly filled application Form 19 and two payment invoices.",
+      "Original birth certificate and a copy for Kenyan citizens by birth.",
+      "Certificate of Registration for citizens by registration.",
+      "Original applicant's national identity card and a copy for adults.",
+      "Duly filled Consent Form for minors.",
+      "Copies of parents' national identity cards or death certificates where applicable.",
+      "Original and copies of parents' birth certificates.",
+      "Payment of the prescribed fee."
+    ],
+
+    "steps": [
+      "Apply online through the eCitizen portal.",
+      "Pay the applicable passport fee.",
+      "Book an appointment through the eCitizen portal.",
+      "Attend the selected passport processing centre to submit the application and complete biometric enrolment."
+    ],
+
+    "fees": {
+      "ordinary_passport_34_pages": "KES 7,550",
+      "ordinary_passport_50_pages": "KES 9,550",
+      "ordinary_passport_66_pages": "KES 12,050"
+    },
+
+    "official_url": "https://immigration.go.ke/passport-section/",
+    "ecitizen_url": "https://immigration.ecitizen.go.ke/",
+
+    "source": "Directorate of Immigration Services",
+    "source_name": "Directorate of Immigration Services",
+    "source_type": "official_government_website",
+
+    "source_provenance": {
+      "requirements": "official_government_source",
+      "steps": "official_government_source",
+      "fees": "official_government_source"
+    },
+
+    "verified": true,
+    "status": "active",
+    "last_verified": "2026-08-26"
+  },
+
+  "national_id": {
+    "name": "National ID Services",
+    "agency": "National Registration Bureau",
+    "country": "Kenya",
+    "description": "National identity card services for Kenyan citizens.",
+
+    "requirements": [],
+    "steps": [],
+    "fees": null,
+
+    "official_url": "https://nrb.ecitizen.go.ke/",
+    "ecitizen_url": "https://www.ecitizen.go.ke/",
+
+    "source": "National Registration Bureau",
+    "source_name": "National Registration Bureau",
+    "source_type": "official_government_platform",
+
+    "source_provenance": {
+      "requirements": "not_verified",
+      "steps": "not_verified",
+      "fees": "not_verified"
+    },
+
+    "verified": false,
+    "status": "prototype",
+    "last_verified": null
+  }
+}

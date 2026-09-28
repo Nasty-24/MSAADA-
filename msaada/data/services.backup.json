@@ -1,0 +1,60 @@
+{
+  "business_registration": {
+    "name": "Business Registration",
+    "agency": "Business Registration Service (BRS)",
+    "country": "Kenya",
+    "description": "Registration of a business name through the Business Registration Service.",
+    "requirements": [
+      "eCitizen account",
+      "Three preferred business names",
+      "Applicant particulars",
+      "Nature of the business",
+      "Passport photo",
+      "National ID"
+    ],
+    "steps": [
+      "Sign in to your eCitizen account.",
+      "Open Business Registration Service.",
+      "Access BRS services.",
+      "Select Business Name Registration.",
+      "Submit the proposed business names and required particulars.",
+      "Complete the application and payment process."
+    ],
+    "fees": null,
+    "official_url": "https://brs.go.ke/",
+    "source": "Business Registration Service",
+    "verified": true,
+    "status": "active",
+    "last_verified": "2026-08-25"
+  },
+
+  "passport_application": {
+    "name": "Kenyan Passport Application",
+    "agency": "Directorate of Immigration Services",
+    "country": "Kenya",
+    "description": "Application for a Kenyan passport through the Directorate of Immigration Services.",
+    "requirements": [],
+    "steps": [],
+    "fees": null,
+    "official_url": "https://immigration.go.ke/passport-section/",
+    "source": "Directorate of Immigration Services",
+    "verified": false,
+    "status": "prototype",
+    "last_verified": null
+  },
+
+  "national_id": {
+    "name": "National ID Services",
+    "agency": "National Registration Bureau",
+    "country": "Kenya",
+    "description": "National identity card services for Kenyan citizens.",
+    "requirements": [],
+    "steps": [],
+    "fees": null,
+    "official_url": "https://nrb.ecitizen.go.ke/",
+    "source": "National Registration Bureau",
+    "verified": false,
+    "status": "prototype",
+    "last_verified": null
+  }
+}
